@@ -1,23 +1,24 @@
-.clock{
-    display: flex;
-    width: 100%;
-    gap: 40px 0;
-    color: white;
+.clock {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 0;
+  width: 100%;
+  color: #fff;
 }
-.clock .time{
-    width: 25%; 
+.clock .time {
+  width: 25%;
 }
-.clock .value{
-    font-size: 50px;
-    font-weight: bold;
+.clock .value {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.clock .label {
+  text-transform: uppercase;
 }
 
-.clock .label{
-    text-transform: uppercase;
-}
-
-@media (max-width: 700px)  {
-    .clock .time {
-        width: 50%;
-    }
+@media (max-width: 700px) {
+  .clock .time {
+    width: 50%;
+  }
 }
