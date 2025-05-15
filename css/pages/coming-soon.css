@@ -4,7 +4,7 @@ html {
 }
 
 .bg-blue {
-  background-color: #03a9f5;
+  background-color: var(--color-primary);
 }
 
 .hero {
@@ -58,7 +58,7 @@ html {
   color: #555;
 }
 .section-description > a {
-  color: #eb1e61;
+  color: var(--color-secondary);
   text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ footer a {
 }
 .socials a:hover {
   background-color: #fff;
-  color: #03a9f5;
+  color:var(--color-primary);
 }
 
 .text-trio {
@@ -148,7 +148,7 @@ footer .row {
   position: absolute;
   top: -1em;
   right: -0.7em;
-  background-color: #eb1e61;
+  background-color: var(--color-secondary);
   text-align: center;
   box-shadow: 0 0.2em 0.4em #0006;
 }
